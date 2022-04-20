@@ -20,30 +20,48 @@
 </head>
 
 <header id="inicio">
-    <nav class="menu">
-        <a href="html/Historia.html">
-            <img  id="arriba"  src="./Imagenes/Escudo_Vicentinos-removebg-preview.png" alt="escudo vicentinos" width="90" height="90">
-        </a> 
-            <ul class="menu"> 
-                <li > <a href="./INDEX.HTML">Inicio</a> </li>
-                <li > <a href="./html/Historia.html">Historia</a> </li>
-                <li > <a href="./Hockey.html">Hockey</a>
-                    <ul>
-                    <li>Septima div</li>
-                    <li>Sexta div</li>
-                    <li>Quinta div</li>
-                    </ul> 
-                    </li>
-                <li > <a href="./html/Rugby.html"> Rugby</a> </li> 
-                <li> <a href="./html/Contacto.html">Contacto</a></li> 
-            </ul>
+    <nav class="navbar navbar-expand-lg  container-fluid">
+        <div class="container-fluid">
+            <a href="./index.html">
+                <img  id="arriba"  src="./Imagenes/Escudo_Vicentinos-removebg-preview.png" alt="escudo vicentinos" width="30" height="30">
+            </a>
+           <a class="navbar-brand" href="./index.html">Inicio</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarText">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="./Hockey.html">Hockey</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="./html/Rugby.html">Rugby</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="./html/Historia.html">Historia</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="./html/Contacto.html">Contacto</a>
+               </li>
+             </ul>
+             <span class="navbar-text">
+              Un Club. Una familia. 
+             </span>
+           </div>
+         </div>
+       </nav>
+ 
+            
+            
     </nav> 
+       
+
 </header>
 
 <body>   
-    <main class="container g-0">
+    <main class="container-fluid">
         <section class="row">     
-            <section class="p-lg-0 ">
+            <section class=" canchas ">
                         <img src="./Imagenes/historia cortada.jpg" alt=" Club vicentinos" width="100%">
             </section>
         </section>    
@@ -107,28 +125,75 @@
             <section class="row">
                 <section class="col-xs-12 col-md-12col-lg-12 col-xl-12" id="sponsor">
                     <!--imagenes de nuestros sponsors-->   
-                    <h2 >NUESTROS SPONSORS</h2>     
-                        <div >
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 1.png" alt="Noshup" >
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 2.png" alt="Planet Cycle">
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 3.png" alt="PDA, campo y jardin">
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 4.jpeg" alt="iphone san miguel">
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 5.png" alt="La segunda seguros">
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 7.png" alt="heladeria ciwe">.
-                        <img class="wow animate__animated animate animate__swing" src="./Imagenes/sponsor 6.png" alt="ochiuzzi- diagnostico medico">
-                    </div>
+                    <h2 >NUESTROS SPONSORS</h2>    
+                    <div class="lightbox" >
+                        <div class="multi-carousel wow animate__animated animate animate__swing ">
+                          <div class="multi-carousel-inner">
+                            <div class="multi-carousel-item">
+                                <img src="./Imagenes/sponsor 1.png" class="img-fluid " alt="Noshup" >
+                            </div>
+                            <div class="multi-carousel-item">
+                              <img
+                                src="./Imagenes/sponsor 2.png" class="img-fluid " alt="Planet Cycle"
+                                class="w-100"
+                              />
+                            </div>
+                            <div class="multi-carousel-item">
+                                <img src="./Imagenes/sponsor 3.png" class="img-fluid " alt="PDA, campo y jardin"
+                                     class="w-100"
+                                />
+                            </div>
+                            <div class="multi-carousel-item">
+                              <img
+                                src="./Imagenes/sponsor 4.jpeg" class="img-fluid " alt="iphone san miguel"
+                                class="w-100"
+                              />
+                            </div>
+                            <div class="multi-carousel-item">
+                                <img
+                                  src="./Imagenes/sponsor 5.png" class="img-fluid " alt="La segunda seguros"                                  
+                                  class="w-100"
+                                />
+                              </div>
+                              <div class="multi-carousel-item">
+                                <img
+                                src="./Imagenes/sponsor 6.png" class="img-fluid " alt="ochiuzzi- diagnostico medico"                                  
+                                class="w-100"
+                                />
+                              </div>
+                          </div>
+                          <button
+                            class="carousel-control-prev"
+                            type="button"
+                            tabindex="0"
+                            data-mdb-slide="prev"
+                          >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          </button>
+                          <button
+                            class="carousel-control-next"
+                            type="button"
+                            tabindex="0"
+                            data-mdb-slide="next"
+                          >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          </button>
+                        </div>
+                      </div> 
                 </section>   
                 <footer class="col-xs-12, col-md-12,col-lg-12 col-xl-12" >
-                <h3 class="footer"> Irigoin 2424, San Miguel, Buenos aires</h3>
+                
                 <a href="https://www.facebook.com" target="blank">
                     <img src="./Imagenes/facebook-removebg-preview.png" alt="facebook" width="30px" height="30px">
                 </a> 
 
                 <a class="footer" href="https://www.instagram.com" target="blank"> <img src="./Imagenes/instagram-removebg-preview.png" alt="instagram" width="30px" height="30px"></a>
                 <br>
-                <a class="footer" href="#arriba">IR ARRIBA</a>
+                <a class="footer" href="#arriba">IR ARRIBA</a> <br>
+                <h3 class="footer"> Irigoin 2424, San Miguel, Buenos aires</h3>
                 </footer>
             </section>     
+            
     </main>
 <script src="wow.min.js"> </script>
  <script>
