@@ -1,0 +1,129 @@
+*{margin: 0; padding: 0; box-sizing: 0; }
+
+nav     {display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: top:0;
+        background:white;
+        font-style:italic;
+        }
+
+.menu   {list-style-type:none;        
+        }        
+       
+.menu li { display: inline-block;
+            text-align: center;
+            position: relative;
+            padding: 15px;
+            }
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:#18254F;
+    font-size: 1.5rem;
+    }
+.nav-item:hover:hover{ color:#e78d1f} 
+.nav-item {font-style: italic;
+          }          
+a:hover{color: #E78D1E;
+        text-decoration: overline;
+        font-style: italic;}
+
+ul ul{ position: absolute;
+        display: none;
+        border: #E78D1E;
+        }
+ul ul li{display: block;}
+  
+.listas{margin: 25px;
+        list-style-type:square;
+        color: black;
+        }
+
+p{ color: black;}                
+               
+.main   {display: grid; 
+        margin-left: 0%;
+        }
+        
+#Deporte{
+        text-align: center;
+        background:linear-gradient(to top,white, #E78D1E);
+        }
+h2{ font-size: 35px;
+    text-align: center;
+    background-color: #18254F;
+    padding: 1rem;
+    align-self: center;
+    color: white;}
+h2:hover{transform: scale(1.1 , 1.1);
+        }  
+
+#sponsor {
+         padding: 1rem;
+         flex-direction: column;
+        }
+#sponsor div{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                background-color: #18254F;
+                justify-content: center;
+                }
+               
+
+#sponsor h2{
+    width: 100%;}         
+
+footer  {grid-area: footer;
+        background: #E78D1E;
+        border: solid  whitesmoke;
+        text-align: center;
+        }   
+
+div img {
+    width: 175px;
+    height: 175px;}
+
+    /*hockey CSS*/
+.hock{  display: grid;
+        grid-template-columns:repeat (2, 1fr);
+        grid-template-rows:repeat (4, 1fr); 
+        grid-template-areas:"resumen resumen" 
+                            "fixture categorias" 
+                            "galeria galeria"
+                            "pie pie";
+        grid-row-gap:10px;
+        grid-column-gap:10px;}
+
+
+
+#pie {grid-area: pie;}
+#resumen {grid-area: resumen;}   
+#fixture {grid-area: fixture;
+            background: #E78D1E;}
+#categorias{grid-area: categorias;
+            text-align: center;
+            background: #E78D1E;}   
+#galeria{ grid-area: galeria;
+          background-color: #18254F;} 
+
+#galeria img {
+    width: 225px;
+    height: 200px;
+    opacity: 0.4;
+    border: white;
+    margin-left: 1.5rem;
+    text-align: center;}
+
+#galeria img:hover {
+    opacity: 1;
+    border:solid 1px white}  
+
+.row {background-color: #18254F;}        
+.canchas{
+        
+        background-color: whitesmoke;}
+h3{ font-size: small;}
+#arriba{
+        font-size: small;
+}
