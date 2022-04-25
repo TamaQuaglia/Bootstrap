@@ -1,7 +1,6 @@
 *{margin: 0; padding: 0; box-sizing: 0; }
 
-nav   { 
-        display: flex;
+nav   { aldisplay: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: top  0;       
